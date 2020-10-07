@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Bordes</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.5.0/css/bootstrap.min.css">
+	<style>
+		.caja {
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+			margin: 20px;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">	
+		<div class="row mt-3">
+			<div class="col-6">
+				<div class="caja bg-light"></div>
+				<div class="caja bg-light border-0"></div>
+				<div class="caja bg-light border-top-0"></div>
+				<div class="caja bg-light border-bottom-0"></div>
+				<div class="caja bg-light border-left-0"></div>
+				<div class="caja bg-light border-right-0"></div>
+			</div>
+
+			<div class="col-6">
+				<div class="caja border-white">.border-white</div>
+				<div class="caja border-success">.border-success</div>
+				<div class="caja border-primary">.border-primary</div>
+				<div class="caja border-secondary">.border-secondary</div>
+				<div class="caja border-danger">.border-danger</div>
+				<div class="caja border-warning">.border-warning</div>
+				<div class="caja border-info">.border-info</div>
+				<div class="caja border-light">.border-light</div>
+				<div class="caja border-dark">.border-dark</div>
+			</div>
+
+			<div class="col-6">
+				<div class="caja bg-primary border-0 rounded-top"></div>
+				<div class="caja bg-primary border-0 rounded-bottom"></div>
+				<div class="caja bg-primary border-0 rounded-left"></div>
+				<div class="caja bg-primary border-0 rounded-right"></div>
+				<div class="caja bg-primary border-0 rounded-circle"></div>
+				<div class="caja bg-primary border-0 rounded"></div>
+				<div class="caja bg-primary border-0 rounded"></div>
+				<div class="caja bg-primary border-0 rounded"></div>
+				<div class="caja bg-primary border-0 rounded-0"></div>
+			</div>
+		</div>
+	</div>
+
+<script src="../js/jquery/jquery-3.5.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

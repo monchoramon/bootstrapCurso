@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Cuadros de ayuda</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">	
+		<div class="row mt-3">
+			<div class="col-4">
+				<div class="list-group" id="lista" role="tablist">
+					<a href="#elemento1" class="list-group-item list-group-item-action active" data-toggle="list" role="tab" aria-controls="elemento1">Elemento 1</a>
+					<a href="#elemento2" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="elemento2">Elemento 2</a>
+					<a href="#elemento3" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="elemento3">Elemento 3</a>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="elemento1" role="tabpanel" aria-labelledby="elemento1">
+						<h1>Título 1</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum at corrupti soluta, ut sint ex, odit, maxime unde nam asperiores nulla, deleniti vitae! Nulla unde aliquid, provident error corporis debitis. 1</p>
+					</div>
+					<div class="tab-pane fade show" id="elemento2" role="tabpanel" aria-labelledby="elemento2">
+						<h1>Título 2</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum at corrupti soluta, ut sint ex, odit, maxime unde nam asperiores nulla, deleniti vitae! Nulla unde aliquid, provident error corporis debitis. 2</p>
+					</div>
+					<div class="tab-pane fade show" id="elemento3" role="tabpanel" aria-labelledby="elemento3">
+						<h1>Título 3</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum at corrupti soluta, ut sint ex, odit, maxime unde nam asperiores nulla, deleniti vitae! Nulla unde aliquid, provident error corporis debitis. 3</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+body {
+    background: #e9ebee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+header {
+	background: #1176b6;
+	padding: 10px 0px;
+}
+
+.contenedor-buscar .btn-buscar {
+	border-radius: 0px;
+	background: #fff;
+	color: #6d6d6d;
+}
+
+.contenedor-buscar input, .contenedor-buscar button {
+	border-style: none;
+}
+
+.contenedor-imagen-usuario .img-usuario{ 
+	border-radius: 100%;
+}
+
+.buscador {
+	padding: 0px 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.menu-superior-izquierdo a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+}
+
+/* Menú lateral izquierdo */
+
+.menu-lateral-izquierdo {
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+}
+
+.contenido-publicacion {
+	box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.2);
+}
+
+.contendor-menu .menu-lateral-izquierdo li {
+	list-style: none;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.contendor-menu .menu-lateral-izquierdo li:hover {
+	background: #fff;
+}
+
+.contendor-menu .menu-lateral-izquierdo li a {
+	text-decoration: none;
+	color: rgb(0,0,0,0.7);
+	font-weight: 700;
+}
+
+/* Caja de publicaciones */
+.usuario-imagen {
+	border-radius: 100px;
+}
+
+.contendodor-publicacion textarea {
+	min-height: 100px;
+	max-height: 300px;
+}
+
+/*Contenedor publicidad*/
+
+.contendor-publicidad img {
+	width: 100%;
+}
+
+
+/* Contendio a subir */
+.tipo-contendo-subir a {
+	padding: 10px;
+	color: rgb(0,0,0,0.4);
+	font-size: 20px;
+}
+
+.tipo-contendo-subir a:nth-child(1) {
+	padding-left: 0px;
+}
+
+.caja-principal-contenido {
+	padding: 25px 0px;
+	border-bottom: 1px solid rgb(0,0,0,0.3);
+}
+
+.caja-principal-contenido button {
+	height: 35px;
+    width: 120px;
+    box-shadow: 0px 2px 5px 1px rgb(0,0,0,0.6);
+    transition: all 0.5s ease;
+    border-color: none;
+}
+
+.caja-principal-contenido button:hover {
+	background: rgb(0, 98, 204, 0.8);
+	transition: all 0.5s ease;
+}
+
+/*Sección Comentarios*/
+.fila-comentarios-publicaciones {
+	margin-top: 50px;
+}
+
+.fila-comentarios-publicaciones .contenedor-foto {
+	padding: 20px;
+	padding-right: 0px;
+}
+
+.contenedor-comentario a {
+	font-size: 18px;
+}
+
+.contenedor-comentario .comentario {
+	font-weight: normal;
+}
+
+.contenedor-comentario button {
+	border-style: none;
+}
+
+.contenedor-comentario button i {
+	color: #1176b6;
+}
+
+.fila-comentarios-publicaciones .contenedor-foto img {
+	width: 55px;
+	height: 55px;
+	border-radius: 100px;
+}
+
+.contenedor-comentario .comentario {
+	background: #fff;
+}
+
+/* MediaQueris */
+@media screen and (max-width: 395px) {
+	.tipo-contendo-subir {
+		width: 100%;
+	}
+
+	/* Contendio a subir */
+	.tipo-contendo-subir {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	/* Contendio a subir */
+	.caja-principal-contenido {
+		display: block!important;
+	}
+
+	.tipo-contendo-subir {
+		text-align: center!important;
+		margin-bottom: 10px;
+	}
+
+	.caja-principal-contenido button {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 285px) {
+	.contenedor-imagen-usuario {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.contenedor-imagen-usuario {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.contenedor-imagen-usuario {
+		margin-right: 0px!important;
+	}
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Modal</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">	
+		<div class="row mt-3">
+			<div class="col-4">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#rm-modal">Abrir Modal</button>
+				<div class="modal fade" id="rm-modal" tabindex="-1" role="dialog" aria-labelledby="rm-modal" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="">Título del modal</h5>
+								<button class="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<h2>Hola Mundo</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis expedita laudantium minus, labore maxime aspernatur nemo accusamus? Placeat eum dignissimos, laboriosam ab quia voluptates modi illo recusandae quibusdam distinctio. Quia!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<button class="btn btn-primary" data-toggle="modal" data-target="#rm-modal-grid">Abrir Modal Con GRID</button>
+				<div class="modal fade" id="rm-modal-grid" tabindex="-1" role="dialog" aria-labelledby="rm-modal-grid" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="">Modal GRID</h5>
+								<button class="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-12 col-sm-6">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui rerum neque nemo inventore, culpa perspiciatis cupiditate, beatae et iste maxime libero. Rerum laudantium dolores, eius illum laborum sequi nostrum.</p>
+										</div>
+										<div class="col-12 col-sm-6">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit qui rerum neque nemo inventore, culpa perspiciatis cupiditate, beatae et iste maxime libero. Rerum laudantium dolores, eius illum laborum sequi nostrum.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-success">Aceptar</button>
+								<button class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

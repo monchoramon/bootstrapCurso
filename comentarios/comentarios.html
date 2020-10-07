@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Comentarios</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.5.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estiloComentarios.css">
+</head>
+<body>
+
+	<div class="container">		
+		<div class="row justify-content-center comentarios">
+			<div class="col-6">
+				<h1>Comentarios</h1>
+				<hr>
+				<form action="POST" class="form-comentarios d-flex justify-content-end flex-wrap">
+					<textarea name="cajaComentario" id="cajaComentario" cols="30" rows="10" placeholder="Comentario"></textarea>
+					<button type="button" class="btn">Aceptar</button>
+				</form>
+				<div class="media">
+					<img src="img/persona1.jpg" width="64" height="64" alt="Persona 1">
+					<div class="media-body ml-3">
+						<p class="nombre">Jhon Doe <span>7:51 p.m., Ayer</span></p>
+						<p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores laborum nesciunt ullam officia laboriosam nam iure delectus, praesentium similique. Quae placeat quos, nam repudiandae qui consectetur necessitatibus est inventore.</p>
+						<div class="botones text-right">
+							<a class="ml-2" href="#">Responder</a>
+							<a class="ml-2" href="#">Editar</a>
+							<a class="ml-2" href="#">Eliminar</a>
+						</div>
+
+						<div class="media">
+							<img src="img/persona3.jpg" width="64" height="64" alt="Persona 3">
+							<div class="media-body ml-3">
+								<p class="nombre">Peter Cena <span>10:00 a.m., Hoy</span></p>
+								<p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores laborum nesciunt ullam officia laboriosam nam iure delectus, praesentium similique. Quae placeat quos, nam repudiandae qui consectetur necessitatibus est inventore.</p>
+								<div class="botones text-right">
+									<a class="ml-2" href="#">Responder</a>
+									<a class="ml-2" href="#">Editar</a>
+									<a class="ml-2" href="#">Eliminar</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="media">
+							<img src="img/persona2.jpg" width="64" height="64" alt="Persona 2">
+							<div class="media-body ml-3">
+								<p class="nombre">Randy López <span>8:30 p.m., Hoy</span></p>
+								<p class="comentario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores laborum nesciunt ullam officia laboriosam nam iure delectus, praesentium similique. Quae placeat quos, nam repudiandae qui consectetur necessitatibus est inventore.</p>
+								<div class="botones text-right">
+									<a class="ml-2" href="#">Responder</a>
+									<a class="ml-2" href="#">Editar</a>
+									<a class="ml-2" href="#">Eliminar</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="../js/jquery/jquery-3.5.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

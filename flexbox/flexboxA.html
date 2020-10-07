@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Tipos de FlexBox</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.5.0/css/bootstrap.min.css">
+	<style>
+		.contenedor {
+			margin-bottom: 20px;
+			background-color: #0275d8;
+			color: #fff;
+		}
+
+		.contenedor div {
+			background-color: rgb(255,255,255,0.2);
+			padding: 15px;
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target="#rm-nav">
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<h4>Tipos de Display Flex</h4>
+				<hr>
+				
+				<!-- Podemos establecer que tipo de elemento flexbox sera, de tipo block o inline. Y podemos establecer también desde que dispositivo lo será. 
+
+				.d-flex 
+				.d-inline-flex
+
+				.d-sm-flex
+				.d-sm-inline-flex
+
+				.d-md-flex
+				.d-md-inline-flex
+
+				.d-lg-flex
+				.d-lg-inline-flex
+
+				.d-xl-flex
+				.d-xl-inline-flex
+				-->
+				<div class="d-flex p-3 bg-primary text-white">
+					<p class="mb-0">Display Flex <strong>.d-flex</strong></p>
+				</div>
+				<div class="d-inline-flex p-3 bg-primary text-white">
+					<p class="mb-0">Display Flex <strong>.d-flex</strong></p>
+				</div>
+			</div>
+		</div>
+		<div class="row my-4">
+			<div class="col">
+				<h4>Direction</h4>
+				<hr>
+				<!--Variantes
+					.flex-row
+					.flex-row-reverse
+					.flex-column
+					.flex-column-reverse
+
+					{sm}
+					.flex-sm-row
+					.flex-sm-row-reverse
+					.flex-sm-column
+					.flex-sm-column-reverse
+
+					{md}
+					.flex-md-row
+					.flex-md-row-reverse
+					.flex-md-column
+					.flex-md-column-reverse
+
+					{lg}
+					.flex-lg-row
+					.flex-lg-row-reverse
+					.flex-lg-column
+					.flex-lg-column-reverse
+
+					{xl}
+					.flex-xl-row
+					.flex-xl-row-reverse
+					.flex-xl-column
+					.flex-xl-column-reverse
+				 -->
+				<p>.flex-row</p>
+				<div class="contenedor d-flex flex-row">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+				<p>.flex-row-reverse</p>
+				<div class="contenedor d-flex flex-row-reverse">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+				<p>.flex-column</p>
+				<div class="contenedor d-flex flex-column">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+				<p>.flex-column-reverse</p>
+				<div class="contenedor d-flex flex-column-reverse">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+			</div>
+		</div>
+		<div class="row my-4">
+			<div class="col">
+				<p>Justify</p>
+				<hr>
+				<!--justify
+
+					justify-content-start
+					justify-content-end
+					justify-content-center
+					justify-content-between
+					justify-content-around
+
+					{sm}
+					justify-content-sm-end
+					justify-content-sm-center
+					justify-content-sm-between
+					justify-content-sm-around
+
+					{md}
+					justify-content-md-end
+					justify-content-md-center
+					justify-content-md-between
+					justify-content-md-around
+
+					{lg}
+					justify-content-lg-end
+					justify-content-lg-center
+					justify-content-lg-between
+					justify-content-lg-around
+
+					{xl}
+					justify-content-xl-end
+					justify-content-xl-center
+					justify-content-xl-between
+					justify-content-xl-around
+				 -->
+				<p>.justify-content-start</p>
+				<div class="contenedor d-flex justify-content-start">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+				<hr>
+				<p>.justify-content-end</p>
+				<div class="contenedor d-flex justify-content-end">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+				<hr>
+				<p>.justify-content-center</p>
+				<div class="contenedor d-flex justify-content-center">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+				<p>.justify-content-between</p>
+				<div class="contenedor d-flex justify-content-between">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+				<p>.justify-content-around</p>
+				<div class="contenedor d-flex justify-content-around">
+					<div>Caja 1</div>
+					<div>Caja 2</div>
+					<div>Caja 3</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../js/jquery/jquery-3.5.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

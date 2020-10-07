@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Scrollspy</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.0/css/bootstrap.min.css">
+	<style>
+		body {
+			position: relative;
+		}
+		
+		.rm-nav a {
+			color: #FFF;
+			padding: 15px;
+		}
+
+		.rm-nav .active, .rm-nav a:hover {
+			background-color: rgb(255, 255, 255, 0.1);
+		}
+
+		.section {
+			margin-bottom: 1000px;
+		}
+
+		.section .columna {
+			padding-top: 100px;
+		}
+
+	</style>
+</head>
+<body data-spy="scroll" data-target="#rm-nav">
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<div id="rm-nav">
+					<ul class="rm-nav nav fixed-top navbar-inverse bg-primary">
+						<li class="nav-item">
+							<a href="#seccion1" class="nav-link">Sección #1</a>
+						</li>
+						<li class="nav-item">
+							<a href="#seccion2" class="nav-link">Sección #2</a>
+						</li>
+						<li class="nav-item">
+							<a href="#seccion3" class="nav-link">Sección #3</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row section" id="seccion1">
+			<div class="col-12 columna">
+				<h2>Sección 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem repellat eligendi modi id quae beatae voluptatibus labore maxime sint dolorum explicabo eos, placeat non quasi vel sit totam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam veritatis blanditiis, error! Deleniti earum accusamus sapiente nisi laudantium repellat nemo, beatae totam ipsa, odit fugit sed error asperiores minus sit!</p>
+			</div>
+		</div>
+		<div class="row section" id="seccion2">
+			<div class="col-12 columna">
+				<h2>Sección 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem repellat eligendi modi id quae beatae voluptatibus labore maxime sint dolorum explicabo eos, placeat non quasi vel sit totam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam veritatis blanditiis, error! Deleniti earum accusamus sapiente nisi laudantium repellat nemo, beatae totam ipsa, odit fugit sed error asperiores minus sit!</p>
+			</div>
+		</div>
+		<div class="row section" id="seccion3">
+			<div class="col-12 columna">
+				<h2>Sección 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem repellat eligendi modi id quae beatae voluptatibus labore maxime sint dolorum explicabo eos, placeat non quasi vel sit totam quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam veritatis blanditiis, error! Deleniti earum accusamus sapiente nisi laudantium repellat nemo, beatae totam ipsa, odit fugit sed error asperiores minus sit!</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Formulario</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">	
+		<div class="row mt-3">
+			<div class="col">
+				<form action="#" method="POST">
+					<div class="form-group">
+						<label for="nombre">Nombre</label>
+						<input type="text" placeholder="Nombre" id="nombre" name="nombre" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="contrasena">Contraseña</label>
+						<input type="password" placeholder="Contraseña" id="contrasena" name="contrasena" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+						<textarea name="mensaje" class="form-control" id="mensaje"></textarea>
+					</div>
+					<div class="form-group">
+						<label for="mensaje">Pais</label>
+						<select name="pais" id="pais" class="form-control">
+							<option value="1">México</option>
+							<option value="2">España</option>
+							<option value="3">USA</option>
+							<option value="4">Canada</option>
+						</select>
+					</div>
+					<div class="form-check">
+						<label for="frutas" class="form-check-label">
+							<input type="checkbox" name="frutas[]" id="mango" class="form-check-input" value="1">Mango
+						</label>
+					</div>
+					<div class="form-check">
+						<label for="frutas" class="form-check-label">
+							<input type="checkbox" name="frutas[]" id="sandia" class="form-check-input" value="2">Sandia
+						</label>
+					</div>
+					<div class="form-check">
+						<label for="sexo" class="form-check-label">
+							<input type="radio" name="sexo" id="masculino" class="form-check-input" value="1">Masculino
+						</label>
+					</div>
+					<div class="form-check">
+						<label for="sexo" class="form-check-label">
+							<input type="radio" name="sexo" id="femenino" class="form-check-input" value="2">Femenino
+						</label>
+					</div>
+
+					<button type="button" class="btn btn-primary">Aceptar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<script src="../js/jquery/jquery-3.5.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

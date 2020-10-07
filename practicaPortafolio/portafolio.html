@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Portafolio</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="fontello/css/fontello.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilosPortafolio.css">
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+			<!-- Logotipo y Menú -->
+			<div class="row nav round-top align-items-stretch justify-content-between">
+				<!-- Logotipo -->
+				<div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+					<h2>Ramón Martínez Cruz</h2>
+					<span class="icono icon-circle"></span>
+					<p>Desarrollo WEB</p>
+				</div>
+
+				<!-- Menú -->
+				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+					<a href="#" class="c-1 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Portafolio</span>
+							<i class="icono icon-briefcase"></i>
+						</div>
+					</a>
+					<a href="#" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Acerca de</span>
+							<i class="icono icon-user"></i>
+						</div>
+					</a>
+					<a href="#" class="c-3 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Contacto</span>
+							<i class="icono icon-mail-alt"></i>
+						</div>
+					</a>
+				</nav>
+			</div>
+			<!-- Slider -->
+			<div class="row slider mb-4">
+				<div class="col p-0">
+					<div class="carousel slide" id="slider" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li class="active" data-target="#slider" data-slide-to="0"></li>
+							<li data-target="#slider" data-slide-to="1"></li>
+							<li data-target="#slider" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img/slide1.jpg" alt="Montaña" class="d-block img-fluid">
+							</div>
+							<div class="carousel-item">
+								<img src="img/slide2.jpg" alt="Montaña" class="d-block img-fluid">
+							</div>
+							<div class="carousel-item">
+								<img src="img/slide3.jpg" alt="Montaña" class="d-block img-fluid">
+							</div>
+						</div>
+						<a href="#slider" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a href="#slider" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Siguiente</span>
+						</a> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<div class="container">
+			<!-- Sección portafolio -->
+			<div class="row portafolio">
+				<div class="col">
+					<h2 class="titulo">Portafolio</h2>
+					<div class="row galeria justify-content-center">
+						<div class="contenedor-imagen col-6 col-lg-4 ">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-1.jpg" class="img-fluid imagen" alt="Sheldon">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-12 col-lg-8 ">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-2.jpg" class="img-fluid imagen" alt="Sheldon">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-12 col-lg-8 ">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-3.jpg" class="img-fluid imagen" alt="Sheldon">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4 ">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-4.jpg" class="img-fluid imagen" alt="Sheldon">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4 ">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-5.jpg" class="img-fluid imagen" alt="Sheldon">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4 ">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-6.jpg" class="img-fluid imagen" alt="Sheldon">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4 ">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-7.jpg" class="img-fluid imagen" alt="Sheldon">
+							</a>
+						</div>
+
+						<!-- Ventana Modal -->
+						<div class="modal fade" id="modal">
+							<div class="modal-dialog d-flex justify-content-center align-items-center">
+								<div class="modal-content">
+									<img src="" alt="" id="imagen-modal" class="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Sección Acerca de -->
+			<div class="row acercaDe">
+				<div class="col-12 col-lg-4 foto">
+					<img src="img/foto.jpg" class="rounded-circle img-fluid" alt="">
+					<p class="nombre">Example Example Example</p>
+				</div>
+				<div class="col-12 col-lg-8 info">
+					<h2 class="titulo">Acerca de</h2>
+					<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nobis non nemo harum, magni. Officiis assumenda quae, repudiandae? Nihil iste sed nulla esse hic voluptatum delectus porro architecto expedita alias!</p>
+
+					<p class="label">PHP</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 100%;">100%</div>
+					</div>
+
+					<p class="label">JS</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 85%;">85%</div>
+					</div>
+
+					<p class="label">HTML</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 95%;">95%</div>
+					</div>
+
+					<p class="label">CSS</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%;">80%</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Sección de Contacto -->
+			<div class="row contacto justify-content-center">
+				<div class="col-12 col-lg-8">
+					<h2 class="titulo">Contacto</h2>
+					<form action="#" class="formulario">
+						<div class="form-group row">
+							<div class="col-12 col-md-6 mb-3">
+								<input type="text" name="nombre" id="" placeholder="Nombre" class="form-control">
+							</div>
+							<div class="col-12 col-md-6 mb-3">
+								<input type="text" name="correo" id="" placeholder="Correo" class="form-control">
+							</div>
+							<div class="col-12 mb-3">
+								<input type="text" name="descripcion" id="" placeholder="Comentario" class="form-control">
+							</div>
+						</div>
+						<div class="form-group d-flex justify-content-center">
+							<input type="button" class="btn btn-primary" value="Enviar">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="container">
+			<div class="row redes-sociales justify-content-center">
+				<div class="col-auto">
+					<a href="#" class="icono icon-twitter twitter"></a>
+					<a href="#" class="icono icon-facebook-squared facebook"></a>
+					<a href="#" class="icono icon-instagram instagram"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<script src="js/jquery/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+<script src="js/jsPortafolio.js"></script>
+</body>
+</html>

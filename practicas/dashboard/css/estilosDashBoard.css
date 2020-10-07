@@ -1,0 +1,259 @@
+body {
+	background-color: #f2f2f2;
+	font-size: 16px;
+	font:'Roboto', sans-serif;
+}
+
+
+/* Barra lateral */
+
+.barra-lateral {
+/*	background: #262a34;
+*/	color: #fff;
+	min-width: 300px;
+	min-height: 100vh;
+	padding: 0px;
+}
+
+.barra-laterial a {
+	color: #FFF;
+}
+
+/*Logotipo*/
+
+.barra-lateral .logo {
+	background: #0275db;
+	margin-bottom: 2px;
+}
+
+.barra-lateral .logo h2 {
+	font-size: 30px;
+	padding: 20px 0px;
+	text-align: center;
+	font-weight: 300;
+	margin: 0px;
+}
+
+/* Menú */
+.barra-lateral .menu a {
+	display: block;
+	padding: 20px;
+	font-weight: 500;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+/*	text-decoration: none;
+*/	color: #fff;
+}
+
+.barra-lateral .menu a i { 
+	margin-right: 5px;
+}
+
+.barra-lateral .menu a:hover {
+	background: rgb(255,255,255,0.3);
+}
+
+/* Estadisticas */
+.main {
+	padding-top: 40px;
+}
+
+.nuevaEntrada .columna {
+	padding: 0px 40px;
+}
+
+.main .titulo {
+	color: #262a34;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.main .widget {
+	margin-bottom: 40px;
+}
+
+.main .widget form input[type="text"], .main .widget textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	box-shadow: 0px 2px 2px 0px rgb(0,0,0,0.1);
+}
+
+.main .widget form input[type="text"] {
+	font-weight: 400;
+
+}
+
+.main .widget textarea { 
+	height: 400px;
+	min-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.main .widget form button {
+	background: #0275d8;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	display: inline-block;
+	padding: 10px;
+	width: 200px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+.main .widget form button:hover { background: #025aa5; }
+
+/* Widget estadísticas */
+
+.main .estadisticas .contendor {
+	box-shadow: 0px 1px 1px 0px rgb(0,0,0,0.2);
+}
+
+
+.main .estadisticas .caja {
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	padding: 40px 20px;
+	flex: 1;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main .estadisticas .caja h3 {
+	margin-bottom: 10px;
+	color: #35ae6b;
+	font-weight: bold;
+}
+
+.main .estadisticas .caja p {
+	color: #a8a8a8;
+	margin-bottom: 0;
+}
+
+.main .estadisticas .caja:first-child {
+	border-right: 0px;
+}
+
+.main .estadisticas .caja:last-child {
+	border-right: 0px;
+}
+
+/* Widget comentarios */
+
+.main .comentarios .contenedor {
+	box-shadow: 0px 0px 2px 0px rgb(0,0,0,0.2);
+}
+
+.main .comentarios .comentario {
+	background: #fff;
+	padding: 20px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.main .comentarios .comentario .foto {
+	width: 64px;
+	height: 64px;
+	overflow: hidden;
+	margin-right: 20px;
+	border-radius: 100px;
+}
+
+.comentarios .contenedor .comentario .foto a {
+	display: inline-block;
+}
+
+.comentarios .contenedor .comentario .foto img {
+	width: 100%;
+}
+
+.comentarios .contenedor .comentario .texto {
+	flex: 1;
+}
+
+.comentarios .contenedor .comentario .texto .texto-comentario {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.comentarios .contenedor .comentario .botones button {
+	background: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	border: none;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.comentarios .contenedor .comentario .botones button:nth-child(1) {background: #35ae6b;}
+.comentarios .contenedor .comentario .botones button:nth-child(2) {background: #b74748;}
+.comentarios .contenedor .comentario .botones button:nth-child(3) {color: #acacac;}
+
+.comentarios .contenedor .comentario .botones button:nth-child(1):hover {background: #449d44;}
+.comentarios .contenedor .comentario .botones button:nth-child(2):hover {background: #c9302c;}
+.comentarios .contenedor .comentario .botones button:nth-child(3):hover {
+	background: #acacac;
+	color: #fff;
+}
+
+/*  MEDIAQUERIES  */
+
+/*Dispositivos xl*/
+@media screen and (max-width: 1300px) {
+	.barra-lateral {
+		min-width: auto;
+	}
+
+	.barra-lateral .logo {
+		display: none;
+	}
+
+	.barra-lateral .menu span {
+		display: none;
+	}
+
+	.barra-lateral .menu a i {
+		margin:0px;
+	}
+
+}
+
+/*Dispositivos lg*/
+@media screen and (max-width: 575px) {
+	.barra-lateral {
+		min-height: auto;
+	}
+
+	.barra-lateral .menu a {
+		display: inline-block;
+		border-bottom: none; 
+	}
+
+	.main .widget form button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 379px) {
+
+	.main .comentarios .comentario .foto {
+		width: 30px;
+		height: 30px;
+	} 
+
+	.comentarios .contenedor .botones button {
+		width: 100%;
+	}
+
+}

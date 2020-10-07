@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Cuadros de ayuda</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">	
+		<div class="row mt-3">
+			<div class="col">
+				 <ul class="list-group">
+				 	<li class="list-group-item active">Lorem ipsum dolor sit amet.</li>
+				 	<li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+				 	<li class="list-group-item disabled">Lorem ipsum dolor sit amet.</li>
+				 	<li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+				 </ul>
+			</div>
+			<div class="col">
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-action active">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action disabled">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-3">
+			<div class="col">
+				<div class="list-group">
+					<li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<li class="list-group-item list-group-item-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<li class="list-group-item list-group-item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<li class="list-group-item list-group-item-warning">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<li class="list-group-item list-group-item-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<li class="list-group-item list-group-item-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<li class="list-group-item list-group-item-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+				</div>
+			</div>
+			<div class="col">
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-warning">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+					<a href="#" class="list-group-item list-group-item-action list-group-item-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+				</div>
+			</div>
+			<div class="col">
+				<ul class="list-group">
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						Lorem ipsum.
+						<span class="badge badge-primary">1</span>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						Lorem ipsum.
+						<span class="badge badge-dark">2</span>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						Lorem ipsum.
+						<span class="badge badge-success">3</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row mt-3">
+			<div class="col">
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-action flex-column align-items-center">
+						<div class="d-flex w-100 justify-content-between align-items-center">
+							<h4 class="mb-1">Lorem ipsum dolor.</h4>
+							<small>9:58 p.m</small>
+						</div>
+						<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum architecto aut eius. Voluptatum rem consequuntur aspernatur enim laboriosam veniam adipisci fugit, iste distinctio. Non, vitae debitis modi pariatur amet.</p>
+					</a>
+					<a href="#" class="list-group-item list-group-item-action flex-column align-items-center">
+						<div class="d-flex w-100 justify-content-between align-items-center">
+							<h4 class="mb-1">Lorem ipsum dolor.</h4>
+							<small>9:58 p.m</small>
+						</div>
+						<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, accusamus, quam. Iusto corporis fugiat laboriosam vel explicabo nam impedit vitae nulla obcaecati, nesciunt. Nostrum mollitia nam architecto illo, aut assumenda.</p>
+					</a>
+					<a href="#" class="list-group-item list-group-item-action flex-column align-items-center">
+						<div class="d-flex w-100 justify-content-between align-items-center">
+							<h4 class="mb-1">Lorem ipsum dolor.</h4>
+							<small>9:58 p.m</small>
+						</div>
+						<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi natus praesentium illo, cupiditate sapiente quod, facilis fugit. Culpa iusto odio dicta ullam fugiat, sunt officiis enim excepturi et ipsam architecto.</p>
+					</a>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+<script src="js/jquery/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

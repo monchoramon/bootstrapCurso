@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>ToolsTips</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.0/css/bootstrap.min.css">
+	<style></style>
+</head>
+<body data-spy="scroll" data-target="#rm-nav">
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<p>
+					Lorem ipsum <a href="#" data-toggle="tooltip" data-placement="top" title="Enlace 2">dolor sit amet</a>, consectetur adipisicing elit. Alias provident modi tenetur repellat dicta <a href="#" data-toggle="tooltip" data-placement="right" title="Enlace 1">quaerat ullam molestias</a>. Fuga excepturi libero, veritatis temporibus ab placeat et consectetur, deserunt dolorum repellat pariatur.
+				</p>
+				<button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Arriba">Arriba</button>
+				<button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Abajo">Abajo</button>
+				<button class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Izquierda">Izquierda</button>
+				<button class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Derecha">Derecha</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+	<!-- Se inicializan los tooltips -->
+	<script>
+		$(function(){
+			$("[data-toggle='tooltip']").tooltip();
+		});
+	</script>
+</body>
+</html>

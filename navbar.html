@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>NavBar</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.0/css/bootstrap.min.css">
+	<style></style>
+</head>
+<body>
+	<!-- .navbar-expand-lg Sirve para indicar en que punto aparecera el toggler -->
+	<!-- .navbar-light Indicamos que usaremos un fondo claro -->
+	<!-- .navbar-dark Indicamos que usaremos un fondo oscuro -->
+	<!-- .bg-light Establecemos un fondo light para el navbar -->
+	<!-- También podemos darles nuestros propios colores de fondo con CSS-->
+	
+	<!-- .fixed-top Nos permite fijar el menú en la parte superior -->
+	<!-- .fixed-bottom Nos permite fijar el menú en la parte inferior-->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a href="#navbar" class="navbar-brand">Menú</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menú de navegación">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Blog
+						</a>
+						<div class="dropdown-menu" aria-labelledby="menu-categorias">
+							<a href="#" class="dropdown-item">HTML</a>
+							<a href="#" class="dropdown-item">CSS</a>
+							<a href="#" class="dropdown-item">JS</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Proximamente</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contacto</a>
+					</li>
+				</ul>
+				<form action="" class="form-inline my-2 mx-lg-0">
+					<input type="text" class="form-control mr-sm-2" placeholder="Buscar" aria-label="Buscar">
+					<button class="btn btn-primary my-sm-0" type="submit">Buscar</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<a href="#navbar" class="navbar-brand">Menú</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menú de navegación">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Blog
+						</a>
+						<div class="dropdown-menu" aria-labelledby="menu-categorias">
+							<a href="#" class="dropdown-item">HTML</a>
+							<a href="#" class="dropdown-item">CSS</a>
+							<a href="#" class="dropdown-item">JS</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Proximamente</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contacto</a>
+					</li>
+				</ul>
+				<form action="" class="form-inline my-2 mx-lg-0">
+					<input type="text" class="form-control mr-sm-2" placeholder="Buscar" aria-label="Buscar">
+					<button class="btn btn-primary my-sm-0" type="submit">Buscar</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+		<div class="container">
+			<a href="#navbar" class="navbar-brand">Menú</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menú de navegación">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Blog
+						</a>
+						<div class="dropdown-menu" aria-labelledby="menu-categorias">
+							<a href="#" class="dropdown-item">HTML</a>
+							<a href="#" class="dropdown-item">CSS</a>
+							<a href="#" class="dropdown-item">JS</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Proximamente</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contacto</a>
+					</li>
+				</ul>
+				<form action="" class="form-inline my-2 mx-lg-0">
+					<input type="text" class="form-control mr-sm-2" placeholder="Buscar" aria-label="Buscar">
+					<button class="btn btn-primary my-sm-0" type="submit">Buscar</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">	
+		<div class="row  mt-3">
+			<div class="col">
+				<div class="jumbotron">
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe debitis ipsam eius iste placeat ducimus non aspernatur minus porro natus voluptatem voluptatibus, illo, nam, qui cumque voluptates similique magni iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolores optio, magni quia. Quos voluptas dolor, error reiciendis delectus explicabo eaque in illum, aperiam doloribus est aspernatur rem dolorum. Quidem.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="margin-top: 1000px;">
+			<div class="col">
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe debitis ipsam eius iste placeat ducimus non aspernatur minus porro natus voluptatem voluptatibus, illo, nam, qui cumque voluptates similique magni iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex dolores optio, magni quia. Quos voluptas dolor, error reiciendis delectus explicabo eaque in illum, aperiam doloribus est aspernatur rem dolorum. Quidem.</p>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="bootstrap-4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
